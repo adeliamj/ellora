@@ -625,10 +625,15 @@ img {
     padding-top: 30px;
 }
 
+#layanan{
+    overflow-x: hidden;
+}
+
 .pembayaran {
     position: relative;
     padding-top: 30px;
     ;
+    overflow-x: hidden;
 }
 
 .service-icon {
