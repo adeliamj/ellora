@@ -242,7 +242,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <div class="col jarak-contact2">
+                            <div class="col jarak-contact">
                                 Shopee: tashaamaharani
                             </div>
                         </div>

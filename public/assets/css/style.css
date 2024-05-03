@@ -739,16 +739,20 @@ img {
 .background-items-catalog {
     background-color: var(--c-dark);
     height: 360px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     border-radius: 50px;
 
+}
+
+.btn-showallproduct{
+    align-items: center;
 }
 
 .catalog {
     position: relative;
     padding-top: -100px;
     margin-top: -140px;
-    padding-bottom: 500px;
+    padding-bottom: 100px;
     background-color: var(--c-light3);
 }
 .jarak-bawah{
@@ -1007,7 +1011,7 @@ footer ul li {
     padding-left: -300px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px){
     .bracelet-home {
         display: none;
 
@@ -1176,7 +1180,10 @@ footer ul li {
         position: relative;
     }
     .carousel-inner{
-        padding-top: 75px;
+        padding-top: 0px;
+    }
+    .padding-carousel{
+        padding-left: 40px;
     }
     .section2-about{
         padding-top: 80px;
@@ -1218,6 +1225,274 @@ footer ul li {
     }
     .g-maps {
         width: 110%;
+        position: relative;
+        left: -50px;
+        padding-right: 10px;
+    }
+    .jarak-contact{
+        padding-left: 30px;
+        text-align: left;
+    }
+    .text-footer{
+        align-items: center;
+    }
+    .lihatdata {
+        align-items: center;
+        position: relative;
+        padding-top: 130px;
+        padding-bottom: 60px;
+        background-color: var(--c-light3);
+    }
+    .background-items-review {
+        background-color: var(--c-dark);
+        position: relative;
+        left: -30px;
+        align-items: center;
+        height: 300px;
+        border-radius: 50px;
+    }
+}
+
+/* MEDIA >767 */
+@media (min-width: 768px) and (max-width: 1024px){
+    .text-home {
+        position: relative;
+        top: -180px;
+        ;
+    }
+    .bracelet-home {
+        display: none;
+
+    }
+
+    .background-home {
+        width: 200%;
+        position: relative;
+        top: 162px;
+        padding-bottom: 410px;
+        left: -280px;
+        overflow-x: hidden;
+    }
+
+    .img-about-us {
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        top: 100px;
+        overflow-x: hidden;
+    }
+
+    .text-home-about-us {
+        position: relative;
+        color: var(--c-light3);
+        font-size: 16px;
+        font-weight: 100px;
+
+    }
+    .btn-about-us{
+        align-items: left;
+    }
+
+    .jarak-carousel {
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    .background-items-catalog {
+        background-color: var(--c-dark);
+        height: 300px;
+        width: 230px;
+        border-radius: 50px;
+    }
+
+    .border-catalog {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .carousel-control-prev {
+        display: none;
+
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
+    .img-layanan-pesanan {
+        left: -120px;
+        ;
+        z-index: 1;
+        width: 160%;
+        position: relative;
+        top: 50px;
+        overflow-x: hidden;
+        padding-bottom: 30px;
+    }
+
+    .background-layanan {
+        padding-left: 30px;
+        ;
+        padding-right: 30px;
+        ;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        background-color: var(--c-light3);
+        height: 430px;
+
+        text-align: justify;
+    }
+    .background-layanan2 {
+        padding-left: 30px;
+        ;
+        padding-right: 30px;
+        ;
+        padding-top: 20px;
+        position: relative;
+        padding-bottom: -300px;
+        background-color: var(--c-dark);
+        text-align: justify;
+    }
+
+    .img-layanan-pembayaran {
+        left: -10px;
+        z-index: 1;
+        width: 120%;
+        position: relative;
+        top: 40px;
+        overflow-x: hidden;
+    }
+
+    .background-items-review {
+        background-color: var(--c-dark);
+        height: 300px;
+        width: 350px;
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .profile-user {
+        width: 50%;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .btn-review1,
+    .btn-review1:focus {
+        align-items: center;
+        background-color: var(--c-dark);
+        color: var(--c-light3);
+        border-color: var(--dark);
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-left: 50px;
+        ;
+    }
+
+    .btn-about-us,
+    .btn-about-us:focus {
+        background-color: var(--c-light3);
+        color: var(--c-dark);
+        border-color: var(--c-light3);
+        border-radius: 30px;
+        top: 10px;
+        left: 0px;
+        position: relative;
+    }
+
+    .btn-brand,
+    .btn-brand:focus {
+        background-color: var(--c-dark);
+        color: white;
+        border-color: var(--c-dark);
+        border-radius: 30px;
+        top: -40px;
+        position: relative;
+    }
+
+    .text-home-layanan {
+        padding-top: 0px;
+        ;
+        position: relative;
+        color: var(--c-dark);
+        font-size: 14px;
+        font-weight: 200px;
+    }
+
+    .icon-footer {
+        display: none;
+    }
+
+    .text-alamat {
+        padding-left: 15px;
+        ;
+    }
+
+    .kontak {
+        position: relative;
+        padding-top: -30px;
+    }
+
+    .jarak-footer {
+        padding-top: -5px;
+        padding-left: 20px;
+    }
+
+    .jarak-atas {
+        padding-top: 10px;
+    }
+    .text-section2-about {
+        z-index: 1;
+        top: -0px;
+        position: relative;
+    }
+    .carousel-inner{
+        padding-top: 0px;
+    }
+    .padding-carousel{
+        padding-left: 40px;
+    }
+    .section2-about{
+        padding-top: 50px;
+        position: relative;
+    }
+    .text-section2-about {
+        z-index: 1;
+        margin-top: -120px;
+        position: relative;
+    }
+    .text-about-us {
+        padding-top: 10px;
+        position: relative;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: var(--c-light3);
+        text-align: justify;
+    }
+    .text-about-us2 {
+        padding-top: 10px;
+        text-align: justify;
+        position: relative;
+        color: var(--c-dark);
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 50px;
+    }
+    .text-title2 {
+        position: relative;
+        top: -30px;
+        bottom: -30px;
+        color: var(--c-dark);
+        font-weight: 700px;
+    }
+    .text-section4-about {
+        margin-top: -70px;
+        position: relative;
+        padding-bottom: 200px;
+        background-color: var(--c-dark);
+    }
+    .g-maps {
+        width: 100%;
         position: relative;
         left: -50px;
         padding-right: 10px;

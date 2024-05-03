@@ -97,14 +97,14 @@
                         <div class="row justify-content-center border-catalog">
                             <div class="jarak-carousel col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
                                 <div class="project background-items-catalog">
-                                    <img src="./assets/images/bracelet-2.jpg" alt="">
+                                    <img src="./assets/images/product/alea.jpg" alt="">
                                     <div class="row">
                                         <div class="col">
                                             <div class="product-name">
-                                                Product name
+                                                Alea
                                             </div>
                                             <div class="text-price">
-                                                Rp. -
+                                                Rp. 20.000,-
                                             </div>
                                         </div>
                                         <div class="col colapse button-price">
@@ -121,15 +121,15 @@
                             </div>
                             <div class="jarak-carousel col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                                 <div class="project background-items-catalog">
-                                    <img src="./assets/images/bracelet-2.jpg" alt="">
+                                    <img src="./assets/images/product/blush.jpg" alt="">
 
                                     <div class="row">
                                         <div class="col">
                                             <div class="product-name">
-                                                Product name
+                                                Blush
                                             </div>
                                             <div class="text-price">
-                                                Rp. -
+                                                Rp. 20.000,-
                                             </div>
                                         </div>
                                         <div class="col colapse button-price">
@@ -148,14 +148,14 @@
                             </div>
                             <div class="jarak-carousel col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
                                 <div class="project background-items-catalog">
-                                    <img src="./assets/images/bracelet-2.jpg" alt="">
+                                    <img src="./assets/images/product/calla.jpg" alt="">
                                     <div class="row">
                                         <div class="col">
                                             <div class="product-name">
-                                                Product name
+                                                Calla
                                             </div>
                                             <div class="text-price">
-                                                Rp. -
+                                                Rp. 20.000,-
                                             </div>
                                         </div>
                                         <div class="col colapse button-price">
@@ -175,14 +175,19 @@
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only"></span>
-                </a>
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        <div data-aos="fade-down" data-aos-delay="200"><a href="/product"
+                                class="btn btn-review1">View More</a>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -263,7 +268,7 @@
             </div>
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner padding-carousel">
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
                             <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="300">
@@ -402,7 +407,8 @@
 
                     </div>
                     <div class="col">
-                        <div data-aos="fade-down" data-aos-delay="200"><a href="/crudreview" class="btn btn-review1">Add
+                        <div data-aos="fade-down" data-aos-delay="200"><a href="/crudreview"
+                                class="btn btn-review1">Add
                                 review</a>
                         </div>
                     </div>
