@@ -34,10 +34,10 @@
                     <div>{{ $product->ukuran }}</div>
                     <div>{{ $product->bahan }}</div>
                     <div>{{ $product->perawatan }}</div>
-                    <div>{{ $product->shopee }}</div>
-                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#viewDetailModal">
-                        View Detail
-                    </button>
+                    <a href="{{ $product->shopee }}">
+                        <img src="./assets/images/shopee_logo.png" alt="" class="w-25 h-25">
+                    </a>
+                    
                 </div>
             </div>
 
