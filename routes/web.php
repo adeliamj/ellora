@@ -42,8 +42,9 @@ Route::get('/tabel', function () {
 //     return view('review');
 // });
 Route::get('/crudreview', function () {
-    return view('crudreview')->middleware('reviewMiddleware');
-});
+    return view('crudreview');
+})->middleware('reviewMiddleware');
+
 
 route::post('/admin-prosesCreateProduct', [App\Http\Controllers\AdminController::class, 'processCreateProduct'])->name('admin.prosesCreateProduct');
 route::post('/product', [App\Http\Controllers\AdminController::class, 'processCreateProduct'])->name('admin.prosesCreateProduct');

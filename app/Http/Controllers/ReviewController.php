@@ -27,7 +27,7 @@ class ReviewController extends Controller
         $validatedData = $request->validate([
             'review_text' => 'required',
             'rating' => 'required',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048', // tambahkan validasi untuk gambar
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:5048', // tambahkan validasi untuk gambar
             'video' => 'nullable|mimes:mp4,webm,ogg|max:20000', // tambahkan validasi untuk video (20 MB maksimum)
         ]);
 
