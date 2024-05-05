@@ -13,10 +13,10 @@
 <body>
   @include('layouts.navbar')
 
-    <section style="padding-top: 100px; padding-bottom: 100px;" id="hero">
+    <section class= "bg-crud" style="padding-top: 100px; padding-bottom: 100px;" id="hero">
         <div class="container">
           <div class="row">
-              <div class="card " data-aos="zoom-in">
+              <div class="card teks-data bg-crud"  data-aos="zoom-in">
                 <form method="POST" action="{{ route('admin.prosesCreateProduct') }}" enctype="multipart/form-data" >
                       <div style="padding-top: 10px;">
                       @csrf
@@ -64,7 +64,7 @@
                       </div>
                       </div>
                       <div class="pt-3 pb-3 d-flex justify-content-center">
-                          <button class="btn btn-outline-warning" type="submit">Simpan</button>
+                          <button class="btn btn-review" type="submit">Simpan</button>
                       </div>
                     </form>
               </div>

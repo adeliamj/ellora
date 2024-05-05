@@ -56,7 +56,7 @@
                 </div>
             </div>
             @foreach ($users as $data)
-            <table class="table table-bordered">
+            <table class="table table-bordered teks-data">
                 <thead>
                     <tr>
                         <th>ID</th>

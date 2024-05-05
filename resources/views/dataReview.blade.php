@@ -38,7 +38,7 @@
 
 @include('layouts.navbar')
 
-<div class="container-lg">
+<div class="container-lg ">
     <div class="table-responsive">
         <div class="table-wrapper">
             <div class="table-title">
@@ -48,7 +48,7 @@
                 </div>
             </div>
             @foreach ($reviews as $data)
-            <table class="table table-bordered">
+            <table class="table table-bordered teks-data">
                 <thead>
                     <tr>
                         <th>ID</th>

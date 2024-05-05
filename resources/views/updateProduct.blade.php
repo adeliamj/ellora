@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Update Product | Ellora Official</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <section style="padding-top: 70px;" id="hero">
-        <div class="container">
+        <div class="container bg-crud teks-data">
           <div class="row">
               <div class="card " data-aos="zoom-in">
                 <form method="POST" action="{{ route('admin.prosesUpdateProduct', ['kode' => $product->kode]) }}" enctype="multipart/form-data">
@@ -68,7 +69,7 @@
                       </div>
                       </div>
                       <div class="pt-3 pb-3 d-flex justify-content-center">
-                          <button class="btn btn-primary" type="submit">Simpan</button>
+                          <button class="btn btn-warning" type="submit">Simpan</button>
                       </div>
                     </form>
               </div>

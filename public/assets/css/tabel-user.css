@@ -42,6 +42,9 @@ body {
     align-items: center;
     padding-left: 50%;
 }
+.teks-data{
+    color: #895B43;
+}
 .table-title .add-new {
     color: var(--c-light3);
     float: right;
