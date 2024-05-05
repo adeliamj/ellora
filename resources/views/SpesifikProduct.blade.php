@@ -20,7 +20,7 @@
     @include('layouts.navbar')
 
     <!-- Home -->
-    <section id="" class="d-flex align-items-center min-vh-100">
+    <section id="" class="d-flex align-items-center min-vh-100 bg-spesifik">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

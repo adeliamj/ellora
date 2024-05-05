@@ -80,6 +80,9 @@
     padding-bottom: 300px;
     position: relative;
 }
+.bg-spesifik{
+    background-color: var(--c-light3);
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
