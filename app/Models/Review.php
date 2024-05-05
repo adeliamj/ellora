@@ -34,6 +34,16 @@ class Review extends Model
         'video', // Tambahkan 'video' ke dalam $fillable
     ];
 
+    protected static function boot()
+    {
+        parent::boot();
+        static::creating(function ($review) {
+            if (auth()->check()) {
+                $review->user_id = auth()->id();
+            }
+        });
+    }
+
     /**
      * Get the user that owns the review.
      */
@@ -50,4 +60,3 @@ class Review extends Model
         return $this->belongsTo(Product::class, 'id');
     }
 }
-

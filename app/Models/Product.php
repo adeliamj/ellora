@@ -11,4 +11,6 @@ class Product extends Model
     protected $guarded = [];
     protected $table = 'products';
     protected $primaryKey = 'kode';
+
+    protected $keyType = 'string';
 }
