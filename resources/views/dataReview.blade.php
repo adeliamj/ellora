@@ -44,15 +44,7 @@
             <div class="table-title">
                 <div class="row">
                     <div class="col-sm-8"><h2>Tabel <b>Review</b></h2></div>
-                    <div class="col-sm-4">
-                        <a class="nav-link" href="/register">
-                            <button type="button" class="btn add-new d-flex  align-items-center justify-content-center">
-                                <i class="fa fa-plus"></i>
-                                <span class="text-center">Add New</span>
-                            </button>
-                        </a>
                     </div>
-
                 </div>
             </div>
             @foreach ($reviews as $data)
