@@ -52,7 +52,6 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>User ID</th>
                         <th>Product ID</th>
                         <th>Review</th>
                         <th>Rating</th>
@@ -64,7 +63,6 @@
                 <tbody>
                     <tr>
                         <td>{{ $data->id}}</td>
-                        <td>{{ $data->users_id}}</td>
                         <td>{{ $data->products_id}}</td>
                         <td>{{ $data->review_text}}</td>
                         <td>{{ $data->rating}}</td>
