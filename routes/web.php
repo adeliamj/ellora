@@ -52,6 +52,7 @@ Route::get('/product', [App\Http\Controllers\AdminController::class, 'showProduc
 Route::get('/product/{product:kode}', [App\Http\Controllers\AdminController::class, 'showOneProduct'])->name('showOneProduct');
 Route::get('/dataProduct', [App\Http\Controllers\AdminController::class, 'adminShowProduct'])->name('admin.ShowProduct');
 Route::get('/dataUsers', [App\Http\Controllers\AdminController::class, 'adminShowUsers'])->name('admin.ShowUsers');
+Route::get('/dataReview', [App\Http\Controllers\AdminController::class, 'adminShowReviews'])->name('admin.ShowReviews');
 
 // Route::get('/lihatdata', [App\Http\Controllers\AdminController::class, 'adminUsers'])->name('admin.Users');
 Route::resource('login', App\Http\Controllers\LoginController::class)->names('login');

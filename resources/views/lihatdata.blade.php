@@ -71,7 +71,7 @@
                                     </svg>
                             </div>
                             <div class="col text-data">
-                                <a href="{{ url('#') }}" style="text-decoration:none" class="text-data" >Data Review</a>
+                                <a href="{{ url('/dataReview') }}" style="text-decoration:none" class="text-data" >Data Review</a>
                             </div>
                         </div>
                     </div>
