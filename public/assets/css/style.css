@@ -127,6 +127,9 @@
     font-family: var(--f-brand);
 
 }
+.detail-produk{
+    color:#895B43;
+}
 
 /* HOME */
 .text-hi {

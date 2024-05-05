@@ -111,8 +111,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- Custom JS -->
-    <script src="./assets/js/crudreview.js"></script>
     <!-- App JS -->
     <script src="./assets/js/app.js"></script>
     <!-- Di bagian bawah halaman blade template Anda -->

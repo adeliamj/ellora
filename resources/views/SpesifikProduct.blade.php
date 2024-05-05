@@ -26,15 +26,15 @@
                 <div class="col-md-4">
                     <img src="{{ asset('storage/' . $product->image) }}" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-8">
-                    <div>{{ $product->nama }}</div>
-                    <div>{{ $product->kode }}</div>
-                    <div>{{ $product->deskripsi }}</div>
-                    <div>{{ $product->harga }}</div>
+                <div class="col-md-8 detail-produk">
+                    <div>Nama Produk: {{ $product->nama }}</div>
+                    <div>Kode Produk : {{ $product->kode }}</div>
+                    <div>Deskripsi : {{ $product->deskripsi }}</div>
+                    <div>Harga : {{ $product->harga }}</div>
                     <div>{{ $product->ukuran }}</div>
-                    <div>{{ $product->bahan }}</div>
-                    <div>{{ $product->perawatan }}</div>
-                    <a href="{{ $product->shopee }}">
+                    <div>Bahan : {{ $product->bahan }}</div>
+                    <div>Perawatan : {{ $product->perawatan }}</div>
+                    <a href="{{ $product->shopee }}"> Beli Produk:
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
                             viewBox="0 0 48 48">
                             <path fill="#f4511e"

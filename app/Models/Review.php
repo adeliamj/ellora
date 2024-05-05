@@ -39,7 +39,7 @@ class Review extends Model
         parent::boot();
         static::creating(function ($review) {
             if (auth()->check()) {
-                $review->user_id = auth()->id();
+                $review->id = auth()->id();
             }
         });
     }
