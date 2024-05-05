@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Update Product | Ellora Official</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -18,7 +18,7 @@
                       @csrf
                       <div style="max-width: 600px; margin: 0 auto;">
                         <table class="pt-5" style="width: 100%;">
-  
+
                           <tr>
                             <td><label for="nama">Nama Produk:</label></td>
                             <td><input type="text" id="nama" name="nama" value="{{ old('nama') ?? $product->nama }}" required style="margin-bottom: 10px;" ></td>
@@ -30,11 +30,11 @@
                                     <img src="{{ asset('storage/'.$product->image) }}" alt="Image" style="max-width: 200px; margin-top: 10px;">
                                 @endif
                                 <input class="form-control" type="file" id="image" name="image">
-                                
+
                             </td>
                         </tr>
-                        
-                        
+
+
                           <tr>
                             <td><label for="deskripsi">Deskripsi Produk:</label></td>
                             <td><textarea id="deskripsi" name="deskripsi" style="width: 100%; height: 100px; margin-bottom: 10px;">{{ old('deskripsi') ?? $product->deskripsi }}</textarea></td>
@@ -63,7 +63,7 @@
                             <td><label for="kode">Kode Produk:</label></td>
                             <td><input type="number" id="kode" name="kode" value="{{ old('kode') ?? $product->kode }}" style="width: 100%;  margin-bottom: 10px;"></input></td>
                           </tr>
-                          
+
                         </table>
                       </div>
                       </div>

@@ -108,11 +108,11 @@
                                             </div>
                                         </div>
                                         <div class="col colapse button-price">
-                                            <div data-aos-delay="200"><a href="#" class="btn btn-view-price">view
+                                            <div data-aos-delay="200"><a href="/product" class="btn btn-view-price">view
                                                     detail</a>
                                             </div>
                                             <div class="content">
-                                                <a href="./assets/images/bracelet-2.jpg" data-fancybox="gallery"
+                                                <a href="/product"
                                                     class="btn btn-outline-light">View Detail</a>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@
                                                     detail</a>
                                             </div>
                                             <div class="content">
-                                                <a href="./assets/images/bracelet-2.jpg" data-fancybox="gallery"
+                                                <a href="/product"
                                                     class="btn btn-outline-light">View Detail</a>
                                             </div>
 
@@ -163,7 +163,7 @@
                                                     class="btn btn-view-price">view
                                                     detail</a>
                                                 <div class="content">
-                                                    <a href="./assets/images/bracelet-2.jpg" data-fancybox="gallery"
+                                                    <a href="/product"
                                                         class="btn btn-outline-light">View Detail</a>
                                                 </div>
                                             </div>

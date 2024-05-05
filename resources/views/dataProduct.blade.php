@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Bootstrap Table with Add and Delete Row Feature</title>
+<title>Data Product | Ellora Official</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -52,7 +52,7 @@
                             </button>
                         </a>
                     </div>
-                    
+
                 </div>
             </div>
             @foreach ($product as $data)
@@ -85,7 +85,7 @@
                         <td>
                             <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
                             <a href="{{ route('updateProduct', ['product' => $data->kode]) }}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                            
+
                             <!-- Modal Konfirmasi Hapus -->
                             <div class="modal fade" id="deleteConfirmationModal-{{ $data->kode }}" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
