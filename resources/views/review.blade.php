@@ -58,9 +58,9 @@
                             <!-- Bukti testimoni -->
                             <br>
                             <div class="row">
-                                @if ($data->images)
+                                @if ($data->image)
                                     <div class="col">
-                                        <img src="{{ asset('images/' . $data->images) }}" alt="Bukti Testimoni"
+                                        <img src="{{ asset('storage/' . $data->image) }}" alt="Bukti Testimoni"
                                             class="testimony">
                                     </div>
                                 @endif
